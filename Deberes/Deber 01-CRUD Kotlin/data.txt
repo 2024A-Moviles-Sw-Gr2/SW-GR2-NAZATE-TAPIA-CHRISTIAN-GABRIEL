@@ -1,0 +1,1 @@
+Facultad(id=CEC, nombre=Educacion, ubicacion=edifi, numeroProfesores=15, presupuesto=100.0)
