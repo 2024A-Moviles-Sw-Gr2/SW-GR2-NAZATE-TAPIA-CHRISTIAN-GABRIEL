@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">2024ASWGR2CGNT</string>
     <string name = "message">Display message</string>
-    <string name = "device_description">Default</string>
+    <string name = "device_description">Landscape!!!</string>
 </resources>

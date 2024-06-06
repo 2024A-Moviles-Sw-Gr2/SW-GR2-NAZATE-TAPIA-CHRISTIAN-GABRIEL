@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2024ASWGR2CGNT</string>
+    <string name = "message">Mensaje en pantalla</string>
+    <string name = "device_description">Portrait!!!</string>
+</resources>
