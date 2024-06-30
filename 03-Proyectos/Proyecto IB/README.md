@@ -15,4 +15,4 @@ El diagrama de la Base de datos se puede observar en la imagen a continuacion.
 
 ![DBDiagram](BaseDeDatos/DiagramaDaseDeDatos.png)
 
-El script de creacion aproximado para el motor de bases de datos PostreSQL  se puede encontrar en: [Ver Script](BaseDeDatos\BDCreationScript.sql)
+El script de creacion aproximado para el motor de bases de datos PostreSQL  se puede encontrar en: [Ver Script](BaseDeDatos/BDCreationScript.sql)
