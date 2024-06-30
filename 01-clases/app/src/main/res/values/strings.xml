@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">2024ASWGR2CGNT</string>
-    <string name = "message">Display message</string>
-    <string name = "device_description">Default</string>
+    <string name="message">Display message</string>
+    <string name="device_description">Default</string>
 </resources>
