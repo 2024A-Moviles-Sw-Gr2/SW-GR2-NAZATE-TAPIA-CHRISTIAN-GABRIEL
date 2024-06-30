@@ -13,6 +13,6 @@ El mockup del aplicativo movil se encuentra en el siguiente enlace de Figma:
 ## Base de datos
 El diagrama de la Base de datos se puede observar en la imagen a continuacion.
 
-![DBDiagram](BaseDeDatos/DiagramaDaseDeDatos.PNG)
+![DBDiagram](BaseDeDatos/DiagramaDaseDeDatos.png)
 
 El script de creacion aproximado para el motor de bases de datos PostreSQL  se puede encontrar en: [Ver Script](BaseDeDatos\BDCreationScript.sql)
