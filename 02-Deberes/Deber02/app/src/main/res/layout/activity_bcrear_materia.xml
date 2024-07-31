@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BCrearMateria">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Nueva Materia"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_nombreMateria"
+        android:layout_width="230dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Nombre de la materia"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/input_fechaInicioClases"
+        android:layout_width="232dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Fecha de inicio de clases"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_nombreMateria" />
+
+    <EditText
+        android:id="@+id/input_cantidadAlumnos"
+        android:layout_width="235dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cantidad de Alumnos"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_fechaInicioClases" />
+
+    <EditText
+        android:id="@+id/input_ira"
+        android:layout_width="230dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="IRA General"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_cantidadAlumnos" />
+
+    <Switch
+        android:id="@+id/input_estaActiva"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="¿Esta Vigente?"
+        app:layout_constraintEnd_toEndOf="@+id/input_ira"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="@+id/input_ira"
+        app:layout_constraintTop_toBottomOf="@+id/input_ira" />
+
+    <Button
+        android:id="@+id/btn_crear_materia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Crear"
+        app:layout_constraintEnd_toEndOf="@+id/input_estaActiva"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/input_estaActiva"
+        app:layout_constraintTop_toBottomOf="@+id/input_estaActiva" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
